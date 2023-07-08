@@ -1,0 +1,454 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.fullcontainer{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.firstpart{
+    background:url("https://static.wixstatic.com/media/6271b2_194738c0af3b48bda46ed6c59244c537~mv2.jpg/v1/fill/w_1895,h_872,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/6271b2_194738c0af3b48bda46ed6c59244c537~mv2.jpg");
+    background-size: 79rem;
+    background-repeat: no-repeat;
+   
+    height: 30rem;
+    color: white;
+}
+.firstpart h2{
+    width: 26rem;
+    margin-top: 6rem;
+    margin-left: 24rem;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
+
+    color: #dbdbdb;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "avenir-lt-w01_35-light1475496, avenir-lt-w05_35-light, sans-serif";
+    
+}
+.firstpart h1{
+    width: 26rem;
+    /* background-color: blueviolet; */
+    margin-left: 24rem;
+}
+.firstpart h1 span{
+    color: #dbdbdb;
+    /* width: 10rem; */
+    /* background-color: blueviolet; */
+    /* margin-left: 24rem; */
+    font-size: 82px;
+    line-height: 82px;
+    font-weight: 400;
+    font-family: "poppins-semibold, poppins, sans-serif";
+}
+.firstpart h1 span strong{
+    font-size: 82px;
+    line-height: 82px;
+    font-weight: 400;
+    font-family: "poppins-semibold, poppins, sans-serif";
+    /* width: rem; */
+    margin-left: 5rem;
+}
+.firstpart p{
+    width: 26rem;
+    margin-left: 24rem;
+    /* background-color: blueviolet; */
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    /* margin-left: .6rem; */
+    font-family: 'overlock, sans-serif';
+    justify-content: start;
+
+}
+.firstpart h5 span{
+    /* margin-left: .6rem; */
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 23.4rem;
+    font-family: 'overlock, sans-serif';
+    line-height: 25px;
+}
+.firstpart .btns{
+    margin-left: 23rem;
+
+}
+
+.firstpart .btns strong{
+    font-size: 18px;
+    font-weight:500 ;
+    /* color: #000000; */
+}
+.firstpart .btns .btn{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px;
+    margin: 3px;
+    width: 8rem;
+    color: #dbdbdb;
+    background-color: #4c4c4c;
+    border: 2px solid #4c4c4c;
+}
+.firstpart .btns .btn:hover{
+    color: #4c4c4c;
+    background-color: #dbdbdb;
+    border: 2px solid #dbdbdb;
+
+}
+.firstpart .btns .hirebtn{
+    color: #dbdbdb;
+    background-color: rgb(42, 181, 235);
+    border: 2px solid rgb(42, 181, 235);
+    width: 8rem;
+    font-size: 15px;
+    padding: 7px;
+    font-weight: 400;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+.secondpart{
+
+}
+.secondpart .search{
+    display: flex;
+    margin: 3rem 2rem;
+    font-size: 25px;
+    font-weight: 400;
+    color: #525252;
+    
+}
+.secondpart .searching{
+    border: 2px solid black;
+    margin-left: 1rem;
+}
+.secondpart .search input{
+    margin-left: 2rem;
+    width: 30rem;
+    color: #202020;
+    font-size: 16px;
+    height: 3rem;
+    font-weight: 400;
+    /* border: 2px solid black; */
+    border: none;
+
+}
+.search input[type=text] {
+    
+        padding: 6px;
+        /* margin-top: 8px; */
+        font-size: 17px;
+        /* border: none; */
+  }
+   .search button {
+    float: right;
+    padding: 6px 10px;
+    /* margin-top: 8px; */
+    /* margin-right: 24px; */
+    background: #ddd;
+    height: 3rem;
+    width: 3rem;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search a{
+    margin-left: 3rem;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:#2f2e2e;
+
+  }
+  .carts {
+    display: flex;
+    margin: 2rem 2rem;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 2rem; */
+    background-color: #f2eeee;
+    height: 20rem;
+    
+
+  }
+  .carts  img{
+    height: 16rem;
+    width: 15rem;
+    padding: 1rem;
+ 
+  }
+  .carts img:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  .carts p{
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    color: #444444;
+    font-size: 16px;
+    line-height: 14px;
+    font-weight: 600;
+    font-family: "poppins-semibold, poppins, sans-serif";
+    padding: .6rem;
+  }
+  
+  .thirdpart{
+    display: flex;
+    margin: 2rem 2rem;
+
+  }
+  .thirdpart .leftdiv{
+    width: 30rem;
+   
+    height: 30rem;
+    margin: 2rem;
+    padding: 20px;
+  }
+  .thirdpart .leftdiv h1{
+    color: #2f2e2e;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif";
+  }
+  .thirdpart .leftdiv p{
+    font-family: "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 2rem;
+  }
+  .thirdpart .logo-btn{
+    color: #2f2e2e;
+    
+    font-family: "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-top: 1rem; */
+    /* padding: 15px; */
+  }
+
+  .thirdpart .logo-btn .logobtn{
+    color: #f2eeee;
+    background-color: #525252;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #525252;
+  }
+  .thirdpart .logo-btn .logobtn:hover{
+    color: #2f2e2e;
+    background-color: #ddd;
+    border: 1px solid #525252;
+
+  }
+  .thirdpart .logo-btn .logostart{
+    color: #525252;
+    background-color:white;
+    padding: 1rem;
+    /* margin: 1rem; */
+    border: none;
+  }
+  .thirdpart img{
+    width: 37rem;
+    height: 26rem;
+    margin: 20px;
+
+  }
+  .thirdpart img p{
+    margin-top: 2px;
+  }
+  .fourthpart {
+    display: flex;
+    margin: 2rem 2rem;
+
+  }
+  .fourthpart  img{
+    width: 37rem;
+    height: 26rem;
+    margin: 20px;
+
+  }
+  .fourthpart .righpara{
+    width: 30rem;
+   
+    height: 30rem;
+    margin: 2rem;
+    padding: 20px;
+    
+  }
+  .fourthpart .righpara h1{
+    color: #a4568f;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif";
+  }
+  .fourthpart .righpara p{
+    font-family: "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 2rem;
+  }
+  .fourthpart .righpara .logo-btnn{
+    color: #2f2e2e;
+    
+    font-family: "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fourthpart .logo-btnn .logobtnn{
+    color: #f2eeee;
+    background-color: #a4568f;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #a4568f;
+  }
+  .fourthpart .logo-btnn .logobtnn:hover{
+    color: #a4568f;
+    background-color: #f2eeee;
+    border: 1px solid #a4568f;
+
+  }
+  .fourthpart .logo-btnn .logostartt{
+    color: #525252;
+    background-color:white;
+    padding: 1rem;
+    /* margin: 1rem; */
+    border: none;
+  }
+  .fifthpart{
+    display: flex;
+    margin: 2rem 2rem;
+  }
+  .fifthpart .rightimagess{
+    width: 30rem;
+   
+    height: 30rem;
+    margin: 2rem;
+    padding: 20px;
+    
+  }
+  .fifthpart .rightimagess h1{
+    color: #3e80ff;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: "helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif";
+  }
+  .fifthpart .rightimagess p{
+    font-family: "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 2rem;
+  }
+  .fifthpart .rightimagess .show-btn{
+    color: #2f2e2e;
+    
+    font-family: "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-size: 16px;
+    font-weight: 400;
+    
+  }
+  .fifthpart .rightimagess .show-btn .showbtn{
+    color: #f2eeee;
+    background-color: #3e80ff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #3e80ff;
+  }
+  .fifthpart .show-btn .showstart{
+    color: #525252;
+    background-color:white;
+    padding: 1rem;
+    /* margin: 1rem; */
+    border: none;
+  }
+  .fifthpart img{
+    width: 36rem;
+    height: 34rem;
+    margin: 20px;
+
+  }
+  .sixthpart{
+    display: flex;
+    margin-top: 2rem ;
+    
+  }
+  .sixthpart .spiritualimage {
+    margin-top: 1rem ;
+    margin-left: 2rem;
+    display: flex;
+    background: url("https://static.wixstatic.com/media/6271b2_1298120f127b40bfa10162f302fbd079~mv2.png/v1/fill/w_1019,h_710,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/mandala-3225164%20copy.png");
+    background-size: 20rem ;
+    background-repeat: no-repeat;
+    width: 38rem;
+    
+  }
+  .sixthpart .spiritualimage .perfume img{
+    width: 15rem;
+    height: 32rem;
+  }
+  .sixthpart .spiritualimage .imagetwo img{
+    width: 17rem;
+    height: 14rem;
+    /* margin-top: 2rem; */
+  }
+  .sixthpart .paraspiritual{
+    width: 34rem;
+   
+    height: 30rem;
+    /* margin: 1rem; */
+    padding: 20px;
+  }
+  .sixthpart h1{
+    color: #f0672f;
+    font-size: 40px;
+    line-height: 49px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: "helvetica-w01-bold, helvetica-w02-bold, helvetica-lt-w10-bold, sans-serif";
+  }
+  .sixthpart p{
+    font-family: "wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 31px;
+    color: #000000;
+    margin-top: 2rem;
+
+  }
+  .sixthpart .divfacebook{
+    display: flex;
+    /* margin: 1rem; */
+  }
+  .sixthpart .divfacebook img{
+    width: 4rem;
+    height: 3rem;
+    margin: 1rem;
+  }
+
+.sixthpart .divfacebook .infodiv{
+    font-size: 10px;
+    color: #757575;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 500;
+    /* margin: 1rem; */
+}
+.infodiv p{
+    font-size: 10px;
+    color: #757575;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 700;
+}

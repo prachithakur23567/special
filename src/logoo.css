@@ -1,0 +1,44 @@
+@import "rsuite/dist/rsuite.css";
+
+.logodesign{
+    
+    margin: 0px;
+    margin-top: 4px;
+    display: flex;
+    
+
+}
+.logodesign img{
+    width: 13rem;
+    height: 4rem;
+    margin-left: 2.5rem;
+    
+}
+.logodesign  ul{
+ 
+    display: flex;
+    margin-top: 2px;
+    font-family:" wfont_3f090f_d2b74fa2704044fa98373433c883f8ed, wf_d2b74fa2704044fa98373433c, orig_poppins_regular";
+    font-weight: 400;
+    
+    color: #171515;
+   
+    font-size: 17px;
+    
+
+}
+.logodesign ul li{
+    font-size: 17px;
+    margin-left: 1px;
+    list-style: none;
+    padding: 24px;
+    border: none;
+}
+/* .logodesign .hello{
+    font-size: 17px;
+    margin-left: 1px;
+    list-style: none;
+    padding: 24px;
+    border: none;
+
+} */
